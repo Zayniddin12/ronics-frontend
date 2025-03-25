@@ -1,0 +1,234 @@
+{
+    "main": {
+        "scroll_title": "Pastga",
+        "scroll_subtitle": "scroll qiling"
+    },
+    "load_more": "Ko'proq yuklash",
+    "instructions": "Qo'llanma",
+    "header_tel1": "+998 71",
+    "header_tel2": "200 93 99",
+    "company_tel": "+998 71 200 93 99",
+    "phone_us1": "+1 331",
+    "phone_us2": "481-1908",
+    "address_us": "50 Chumasero Dr 2A San Francisco",
+    "error": {
+        "required": "Ushbu maydonni to'ldirishingiz muhim",
+        "minLength": "Iltimos, kamida 3 ta belgidan iborat bo'lgan so'zni kiriting",
+        "maxLength": "100 ta belgidan ortiq foydalanish mumkin emas",
+        "error": "Xatolik!",
+        "error_page": "Asosiy sahifa",
+        "not_found": "Ushbu sahifa topilmadi",
+        "contact_error": "Xatolik yuz berdi"
+    },
+    "search": "Izlash",
+    "links": {
+        "brandbook": "https://disk.yandex.ru/d/Z_cHhi3dnFRhvA"
+    },
+    "header": {
+        "choose_lang": "Tilni tanlang:",
+        "about": "Kompaniya",
+        "service": "Xizmatlar",
+        "products": "Mahsulotlar va Xizmatlar",
+        "contact": "Bog'lanish"
+    },
+    "footer": {
+        "address": "Toshkent sh., Mirobod t., Oybek ko'chasi - 24"
+    },
+    "address_uz": "Toshkent sh., Mirobod t., Oybek ko'chasi - 24",
+    "index": {
+        "maintitle": "Sanoatni avtomatlashtirish jarayonlarini boshqarish tizimlari uchun ishonchli yechimlar",
+        "secondtitle": "Har qanday murakkablikda"
+    },
+    "buttons": {
+        "btn1": "Brif to'ldirish",
+        "btn2": "Qo‘ng‘iroq",
+        "btn3": "Barcha xizmatlar",
+        "btn4": "Brendbukni yuklash",
+        "btn5": "Muammoni yeching!",
+        "btn6": "Yuborish",
+        "btn7": "Ro‘yxatdan o‘tish",
+        "btn8": "Rezyume yuborish",
+        "btn9": "Yuklash"
+    },
+    "about": {
+        "subtitle": "Bir so‘z bilan aytganda",
+        "title": "Biz haqimizda",
+        "yuzyillik": "yillik malakaga ega jamoa",
+        "trust": "RONICS MChJ korxonangizda har qanday murakkablikdagi jarayonlarni boshqarishning avtomatlashtirilgan tizimlarini joriy etishni taklif etadi. Mijozlar bizga sanoat, energetika, aloqa, mashinasozlik, transport va boshqa ko'plab sohalardan kelishadi. Bizning kompaniyamiz sizning obyektingizda texnologik jarayonlarni boshqarishning avtomatlashtirilgan tizimini kompleks joriy etishni amalga oshirishi va alohida bosqichlarni amalga oshirishni taklif qilishi mumkin: loyihalash, ishlab chiqish, xarid qilish, jihozlarni yetkazib berish, o'rnatish, ishga tushirish va kafolat va texnik yordam.",
+        "trust_part": "Biz mijozlarga har qanday murakkablik darajasidagi avtomatlashtirish masalalarini hal qilishda yordam beramiz. Bugungi kunda RONICS MChJ standart loyihalar uchun tayyor yechimlarga ega va sizning ishlab chiqarishingizning yuqori ixtisoslashgan vazifalari uchun ishchi loyihani ishlab chiqishi mumkin. Shu bilan birga, har bir alohida holatda amalga oshirilayotgan loyiha ishlab chiqarishning vazifalari, o'ziga xos xususiyatlari va ehtiyojlarini hisobga olgan holda ishlab chiqiladi.",
+        "feature1": "Tezkor yechimlar",
+        "feature2": "Takrorlanmas loyihalar"
+    },
+    "services": {
+        "heading": "Bizning xizmatlarimiz",
+        "category_heading": "Mahsulotlarimiz katalogi",
+        "subtitle": "Bizning",
+        "title": "Xizmatlarimiz",
+        "text": "Biz har qanday murakkablikdagi va har qanday yo‘nalishdagi loyihalarga tayyormiz",
+        "all": "Barchasi",
+        "top_rated": "TOP mahsulotlarimiz"
+    },
+    "problem": {
+        "hey": "hey...",
+        "title": "Sizni o‘ylantirib qo‘ygan muammo bormi?",
+        "subtitle": "Hey...",
+        "maintext": "muammo",
+        "formtext": "Muammoingizni o‘rganib chiqishimiz uchun quyidagi so'rovnomani to‘ldiring:"
+    },
+    "partners": {
+        "title": "Bizga ishonadigan kompaniyalar",
+        "subtitle": "hamkorlar"
+    },
+    "form": {
+        "type_of_project": "Xizmat turi",
+        "name": "F.I.SH",
+        "nameplaceholder": "To'liq ism sharifingizni kiriting",
+        "project_desc": "Tavsifi",
+        "briefprojectplaceholder": "Loyiha haqida qisqacha yozing",
+        "phone": "Telefon raqamingiz",
+        "cv": "CV’ingizni yuklang",
+        "title": "Boshqaruv paneli buyurtmasi uchun brif",
+        "subtitle": "SIZNING RAQAMLI HAMKORINGIZ",
+        "next": "Keyingisi",
+        "prev": "Ortga",
+        "add": "Qo‘shish",
+        "add1": "Brendbukni yuklang",
+        "company": "Kompaniyaning nomi",
+        "punkt1": "Shaxsiy ma’lumot ",
+        "punkt2": "Maqsad va vazifalar ",
+        "punkt3": "Loyiha tuzilishi",
+        "punkt4": "Holatingiz",
+        "datetime": "1 oy",
+        "companyplaceholder": "Kompaniya nomini kiriting",
+        "youranswer": "Javobingiz",
+        "other": "Boshqa",
+        "upload": "Fayl yuklash",
+        "min": "Min",
+        "max": "Max",
+        "to": "{0} gacha"
+    },
+    "brief_title": "{action}ni ishlab chiqish uchun brif muvaffaqiyatli yuborildi! Operatorlarimiz tez orada siz bilan bog‘lanishadi.",
+    "brief_subtitle": "ni ishlab chiqish uchun brif",
+    "aboutform": {
+        "title": "Siz ham o‘z ishlab chiqarishingizni yo‘lga qo‘ymoqchimisiz?",
+        "subtitle": "Biz bilan birga yuksalmoqchimisiz? Keling, bizga kerakligingizni isbotlang! Jamoaning ajralmas bo‘lagiga aylaning."
+    },
+    "comment": {
+        "title": "Mijozlar fikri",
+        "text": "RONICS kompaniyasi mijozlarini bir umrlik hamkor sifatida ko'radi. Biz eshitishni va analiz qilishni bilamiz. Har bir hamkorlarimizni bizga qo'yayotgan talablarini chuqur o'rgangan holda ular uchun eng optimal yechimlarni taklif qilamiz. Biz mahsulot sotmaymiz, balki sifatli yechim taqdim etamiz! Barcha IT xizmatlarida yuzaga kelishi mumkin bo'lgan har qanday murakkablikdagi vazifani amalga oshirish — maqsadimiz. Bunda butun jamoa tajribasi va bilimi kutilgan natijaga yo'naltiriladi. Sizning fikringiz va mehnatimiz mahsuli — bizning faxrimiz. Biz kompaniyangiz uchun mukammal IT yechimlarini berishda sizning yagona tanlovingiz bo'lishga tayyormiz."
+    },
+    "gallery": {
+        "title": "Fotogalereya",
+        "subtitle": "RONICS oilasidan"
+    },
+    "more": "Yana yuklash",
+    "in_map": "Xaritada",
+    "result_notfound": "Qidiruv natijasi topilmadi",
+    "work": {
+        "title": "Qanday yechim xohlaysiz?",
+        "subtitle": "muammo bormi?"
+    },
+    "fish": "F.I.SH",
+    "enter_name": "Ismingizni kiriting",
+    "answer": "Javobingiz",
+    "ios_android": "IOS va Android",
+    "my_answer": "Mening javobim",
+    "select": "Tanlang",
+    "popup": {
+        "main": "Asosiy sahifaga qaytish",
+        "send": "Muvaffaqiyatli yuborildi",
+        "your_application_sent": "Sizning arizangiz muvaffaqiyatli yuborildi",
+        "send_call": "Brif muvaffaqiyatli yuborildi! Operatorlarimiz tez orada siz bilan bog‘lanishadi. )"
+    },
+    "about_page": {
+        "about": "RONICS HAQIDA",
+        "our_portfolio": "Bizning portfolio"
+    },
+    "general_form_description": "Ushbu birlamchi ma’lumotlarni to‘ldirganingizdan so‘ng bizning mas’ul xodimlarimiz siz bilan aloqaga chiqishadi. ",
+    "fio": "F.I.SH.",
+    "select_vacancy": "Vakansiya tanlang",
+    "success_send": "Muvaffaqiyatli yuborildi",
+    "advise_view": "Ko‘rishni",
+    "advise": "Tavsiya qilamiz",
+    "popup.your_application_sent": " Arizangiz ko'rib chiqib siz bilan bog'lanamiz!",
+    "send_form": "Ariza yuborish",
+    "monday": "Dushanba",
+    "tuesday": "Seshanba",
+    "wednesday": "Chorshanba",
+    "thursday": "Payshanba",
+    "friday": "Juma",
+    "saturday": "Shanba",
+    "sunday": "Yakshanba",
+    "footer_map": "Toshkent sh., Mirobod t., Oybek 26",
+    "view_more": "Batafsil",
+    "your_name": "Ismingiz",
+    "introduce_yourself": "O'zingizni tanishtiring",
+    "enter_your_name": "Ismingizni kiritig",
+    "back_to_main": "Asosiyga qaytish",
+    "go": "O'tish",
+    "selfxss_text1": "{action}  zararlanishi bu foydalanuvchi veb akkaunt maʼlumotlarini qoʻlga kiritish, firibgarlik, kiber hujumlar, bullying maqsadlarini koʻzda tutgan holatda dasturiy taʼminot console qismiga oʻzgartirish kiritish yoki maʼlumotni koʻchirib firibgar yoki xakerga yuborish bilan tariflash mumkin. Self-XSS hujumida natijasida jabrlanuvchi oʻzining veb brauzeridagi xavfli virusni bilmagan holda ishga tushirishi natijasida boshqa shaxsiy fayllariga zarar yetkazishi mumkin",
+    "selfxss_text10": "www.ronics.uz",
+    "selfxss_text11": "“RONICS” MJCH",
+    "selfxss_text12": "All rights reserved.",
+    "about_us": "Biz haqimizda",
+    "products": "Mahsulotlar",
+    "contacts": "Kontaktlar",
+    "language": "Tilni tanlang:",
+    "go_to": "Saytga o‘tish",
+    "next_project": "Pastga scroll qiling",
+    "WEBSITE": "Veb-sayt",
+    "ecommerce": "E-commerce",
+    "fintech": "Fintech",
+    "vertical_slider": {
+        "text1": "RONICS - yangicha yondashuv va zamonaviy sifat kafolati.",
+        "text2": "Ochiq faoliyat maydonchalari, dolzarb loyihalar, ilgʻor jamoa, super faol xodimlar, sifatli mahsulot, ishonchli hamkor, eng qulay ish sharoiti, yuqori maosh, mamlakat boʻylab oʻz vakillariga ega kompaniya – bu PM xodimlari va kompaniya hamkorlarining fikri.",
+        "text3": "RONICS klassik IT kompaniyalar safiga kirmaydi. Yaʼni, biz bitta sohaga taqalib qolmaymiz. Biz robototexnika, raqamli marketing, oʻyinlar ishlab chiqish, turli xil dasturiy tizimlariga texnik xizmat koʻrsatamiz.",
+        "text4": "“United IT Company” jamoasi sifatni moliyaviy manfaatlardan ustun koʻradi. Aniqrogʻi, biz kompyuterlar bilan emas insonlar bilan ishlaymiz. Mijozlarimiz bergan izohlar ham RONICS’ning ishonib topshirilgan vazifa va majburiyatlarga masʼuliyat bilan yondashishi, ahil jamoaviy ish jarayonini yuritishini tasdiqlaydi. Zero, biz tendensiyalarni quvish emas, balki ularni yaratish, xalqaro standartlarga asoslangan faoliyat olib borish bilan IT sohasida yetakchi jamoa boʻlishga intilyapmiz. Shu kungacha yaratgan loyihalarimiz mazkur soʻzlarimiz dalili, siz uchun esa inkor etib boʻlmas tanlov ekanligimizning isboti boʻlishi shubhasiz.",
+        "text5": "Har bir yirik kompaniya faqatgina oʻziga emas, balki yonida yelkadosh boʻlgan hamda ishonganlarga minnatdorchilik bildirishi lozim. Axir, bizning ishda eng muhim prinsip - bu ishonch.",
+        "text6": "Mijozlarimiz bergan izohlar ham RONICS’ning ishonib topshirilgan vazifa va majburiyatlarga masʼuliyat bilan yondashishi, ahil jamoaviy ish jarayonini yuritishini tasdiqlaydi. Zero, biz tendensiyalarni quvish emas, balki ularni yaratish, xalqaro standartlarga asoslangan faoliyat olib borish bilan IT sohasida yetakchi jamoa boʻlishga intilyapmiz. Shu kungacha yaratgan loyihalarimiz mazkur soʻzlarimiz dalili, siz uchun esa inkor etib boʻlmas tanlov ekanligimizning isboti boʻlishi shubhasiz."
+    },
+    "contact": {
+        "title": "Biz bilan bog‘lanish",
+        "form": {
+            "name": "Ismingizni kiriting",
+            "label3": "Murojaat",
+            "description": "Murojaat matnini yozing"
+        },
+        "btn": "Murojaat yuborish"
+    },
+    "products_list": {
+        "title": "Mahsulotlarimiz katalogi",
+        "card_link": "Batafsil",
+        "details": {
+            "title": "Qurulma xususiyatlari",
+            "list1": "Nomi",
+            "list2": "Ishlab chiqaruvchining kodi",
+            "list3": "Qo'llanilishi",
+            "list4": "Kafolat muddati",
+            "list5": "Tavsif va xususiyatlar",
+            "list6": "Aloqa interfeyslari",
+            "list7": "Funksiyasi",
+            "list8": "Himoya sinfi",
+            "list9": "Narxi",
+            "no_price": "Kelishuv asosida",
+            "currency": "so'm"
+        },
+        "related_title": "O‘xshash mahsulotlar"
+    },
+    "modal": {
+        "title": "Savollaringiz bormi?",
+        "desc": "Telefon raqamingizni qoldiring va biz bozorda eng yaxshi takliflarni beramiz",
+        "feedback_title": "Muvaffaqiyatli yuborildi",
+        "feedback__subtitle": "Sizning arizangiz muvoffaqiyatli yuborildi"
+    },
+    "footer_list": {
+        "title1": "Avtomobilsozlik",
+        "title2": "Kimyo texnologiyalari",
+        "title3": "Maishiy texnologiyalarni ishlab chiqish",
+        "title4": "Makro zavodlarni ishlab chiqish",
+        "title5": "Industrial arxitiktura ishlab chiqish",
+        "title6": "Og'ir sanoat"
+    },
+    "no_information": "Mahsulot mavjud emas.!",
+    "again_later_see": "Qayta urinib ko'ring"
+}

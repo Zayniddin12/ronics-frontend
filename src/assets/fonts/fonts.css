@@ -1,0 +1,511 @@
+@font-face {
+    font-family: 'Proxima Soft';
+    src: url('ProximaSoft-SemiBold.eot');
+    src: local('Proxima Soft SemiBold'), local('ProximaSoft-SemiBold'),
+        url('ProximaSoft-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('ProximaSoft-SemiBold.woff2') format('woff2'),
+        url('ProximaSoft-SemiBold.woff') format('woff'),
+        url('ProximaSoft-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-family: 'Greycliff CF';
+    src: local('Greycliff CF Bold'), local('GreycliffCF-Bold'),
+        url('@/assets/fonts/GreycliffCF-Bold.woff2') format('woff2'),
+        url('@/assets/fonts/GreycliffCF-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Proxima Soft';
+    src: url('ProximaSoft-BoldIt.eot');
+    src: local('Proxima Soft Bold Italic'), local('ProximaSoft-BoldIt'),
+        url('ProximaSoft-BoldIt.eot?#iefix') format('embedded-opentype'),
+        url('ProximaSoft-BoldIt.woff2') format('woff2'),
+        url('ProximaSoft-BoldIt.woff') format('woff'),
+        url('ProximaSoft-BoldIt.ttf') format('truetype');
+    font-weight: bold;
+    font-family: 'Greycliff CF';
+    src: local('Greycliff CF Medium Oblique'),
+        local('GreycliffCF-MediumOblique'),
+        url('@/assets/fonts/GreycliffCF-MediumOblique.woff2') format('woff2'),
+        url('@/assets/fonts/GreycliffCF-MediumOblique.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Proxima Soft';
+    src: url('ProximaSoft-Light.eot');
+    src: local('Proxima Soft Light'), local('ProximaSoft-Light'),
+        url('ProximaSoft-Light.eot?#iefix') format('embedded-opentype'),
+        url('ProximaSoft-Light.woff2') format('woff2'),
+        url('ProximaSoft-Light.woff') format('woff'),
+        url('ProximaSoft-Light.ttf') format('truetype');
+    font-family: 'Greycliff CF';
+    src: local('Greycliff CF Light'), local('GreycliffCF-Light'),
+        url('@/assets/fonts/GreycliffCF-Light.woff2') format('woff2'),
+        url('@/assets/fonts/GreycliffCF-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Proxima Soft';
+    src: url('ProximaSoft-Thin.eot');
+    src: local('Proxima Soft Thin'), local('ProximaSoft-Thin'),
+        url('ProximaSoft-Thin.eot?#iefix') format('embedded-opentype'),
+        url('ProximaSoft-Thin.woff2') format('woff2'),
+        url('ProximaSoft-Thin.woff') format('woff'),
+        url('ProximaSoft-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-family: 'Greycliff CF';
+    src: local('Greycliff CF Heavy'), local('GreycliffCF-Heavy'),
+        url('@/assets/fonts/GreycliffCF-Heavy.woff2') format('woff2'),
+        url('@/assets/fonts/GreycliffCF-Heavy.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Proxima Soft';
+    src: url('ProximaSoft-LightIt.eot');
+    src: local('Proxima Soft Light Italic'), local('ProximaSoft-LightIt'),
+        url('ProximaSoft-LightIt.eot?#iefix') format('embedded-opentype'),
+        url('ProximaSoft-LightIt.woff2') format('woff2'),
+        url('ProximaSoft-LightIt.woff') format('woff'),
+        url('ProximaSoft-LightIt.ttf') format('truetype');
+    font-weight: 300;
+    font-family: 'Greycliff CF';
+    src: local('Greycliff CF Extra Light Oblique'),
+        local('GreycliffCF-ExtraLightOblique'),
+        url('@/assets/fonts/GreycliffCF-ExtraLightOblique.woff2')
+            format('woff2'),
+        url('@/assets/fonts/GreycliffCF-ExtraLightOblique.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Proxima Soft';
+    src: url('ProximaSoft-Medium.eot');
+    src: local('Proxima Soft Medium'), local('ProximaSoft-Medium'),
+        url('ProximaSoft-Medium.eot?#iefix') format('embedded-opentype'),
+        url('ProximaSoft-Medium.woff2') format('woff2'),
+        url('ProximaSoft-Medium.woff') format('woff'),
+        url('ProximaSoft-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Proxima Soft';
+    src: url('ProximaSoft-SemiBoldIt.eot');
+    src: local('Proxima Soft SemiBold Italic'), local('ProximaSoft-SemiBoldIt'),
+        url('ProximaSoft-SemiBoldIt.eot?#iefix') format('embedded-opentype'),
+        url('ProximaSoft-SemiBoldIt.woff2') format('woff2'),
+        url('ProximaSoft-SemiBoldIt.woff') format('woff'),
+        url('ProximaSoft-SemiBoldIt.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Proxima Soft';
+    src: url('ProximaSoft-Bold.eot');
+    src: local('Proxima Soft Bold'), local('ProximaSoft-Bold'),
+        url('ProximaSoft-Bold.eot?#iefix') format('embedded-opentype'),
+        url('ProximaSoft-Bold.woff2') format('woff2'),
+        url('ProximaSoft-Bold.woff') format('woff'),
+        url('ProximaSoft-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-family: 'Greycliff CF';
+    src: local('Greycliff CF Extra Bold Oblique'),
+        local('GreycliffCF-ExtraBoldOblique'),
+        url('@/assets/fonts/GreycliffCF-ExtraBoldOblique.woff2') format('woff2'),
+        url('@/assets/fonts/GreycliffCF-ExtraBoldOblique.woff') format('woff');
+    font-weight: 800;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Greycliff CF';
+    src: local('Greycliff CF Extra Light'), local('GreycliffCF-ExtraLight'),
+        url('@/assets/fonts/GreycliffCF-ExtraLight.woff2') format('woff2'),
+        url('@/assets/fonts/GreycliffCF-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Greycliff CF';
+    src: local('Greycliff CF Extra Bold'), local('GreycliffCF-ExtraBold'),
+        url('@/assets/fonts/GreycliffCF-ExtraBold.woff2') format('woff2'),
+        url('@/assets/fonts/GreycliffCF-ExtraBold.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Proxima Soft';
+    src: url('ProximaSoft-Black.eot');
+    src: local('Proxima Soft Black'), local('ProximaSoft-Black'),
+        url('ProximaSoft-Black.eot?#iefix') format('embedded-opentype'),
+        url('ProximaSoft-Black.woff2') format('woff2'),
+        url('ProximaSoft-Black.woff') format('woff'),
+        url('ProximaSoft-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Proxima Soft';
+    src: url('ProximaSoft-RegularIt.eot');
+    src: local('Proxima Soft Regular Italic'), local('ProximaSoft-RegularIt'),
+        url('ProximaSoft-RegularIt.eot?#iefix') format('embedded-opentype'),
+        url('ProximaSoft-RegularIt.woff2') format('woff2'),
+        url('ProximaSoft-RegularIt.woff') format('woff'),
+        url('ProximaSoft-RegularIt.ttf') format('truetype');
+    font-weight: normal;
+    font-family: 'Greycliff CF';
+    src: local('Greycliff CF Bold Oblique'), local('GreycliffCF-BoldOblique'),
+        url('@/assets/fonts/GreycliffCF-BoldOblique.woff2') format('woff2'),
+        url('@/assets/fonts/GreycliffCF-BoldOblique.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Greycliff CF';
+    src: local('Greycliff CF Light Oblique'), local('GreycliffCF-LightOblique'),
+        url('@/assets/fonts/GreycliffCF-LightOblique.woff2') format('woff2'),
+        url('@/assets/fonts/GreycliffCF-LightOblique.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Proxima Soft';
+    src: url('ProximaSoft-Regular.eot');
+    src: local('Proxima Soft Regular'), local('ProximaSoft-Regular'),
+        url('ProximaSoft-Regular.eot?#iefix') format('embedded-opentype'),
+        url('ProximaSoft-Regular.woff2') format('woff2'),
+        url('ProximaSoft-Regular.woff') format('woff'),
+        url('ProximaSoft-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Proxima Soft';
+    src: url('ProximaSoft-MediumIt.eot');
+    src: local('Proxima Soft Medium Italic'), local('ProximaSoft-MediumIt'),
+        url('ProximaSoft-MediumIt.eot?#iefix') format('embedded-opentype'),
+        url('ProximaSoft-MediumIt.woff2') format('woff2'),
+        url('ProximaSoft-MediumIt.woff') format('woff'),
+        url('ProximaSoft-MediumIt.ttf') format('truetype');
+    font-weight: 500;
+    font-family: 'Greycliff CF';
+    src: local('Greycliff CF Heavy Oblique'), local('GreycliffCF-HeavyOblique'),
+        url('@/assets/fonts/GreycliffCF-HeavyOblique.woff2') format('woff2'),
+        url('@/assets/fonts/GreycliffCF-HeavyOblique.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Greycliff CF';
+    src: local('Greycliff CF Demi Bold Oblique'),
+        local('GreycliffCF-DemiBoldOblique'),
+        url('@/assets/fonts/GreycliffCF-DemiBoldOblique.woff2') format('woff2'),
+        url('@/assets/fonts/GreycliffCF-DemiBoldOblique.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Proxima Soft';
+    src: url('ProximaSoft-BlackIt.eot');
+    src: local('Proxima Soft Black Italic'), local('ProximaSoft-BlackIt'),
+        url('ProximaSoft-BlackIt.eot?#iefix') format('embedded-opentype'),
+        url('ProximaSoft-BlackIt.woff2') format('woff2'),
+        url('ProximaSoft-BlackIt.woff') format('woff'),
+        url('ProximaSoft-BlackIt.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Proxima Soft';
+    src: url('ProximaSoft-ExtraBoldIt.eot');
+    src: local('Proxima Soft ExtraBold Italic'),
+        local('ProximaSoft-ExtraBoldIt'),
+        url('ProximaSoft-ExtraBoldIt.eot?#iefix') format('embedded-opentype'),
+        url('ProximaSoft-ExtraBoldIt.woff2') format('woff2'),
+        url('ProximaSoft-ExtraBoldIt.woff') format('woff'),
+        url('ProximaSoft-ExtraBoldIt.ttf') format('truetype');
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Proxima Soft';
+    src: url('ProximaSoft-ThinIt.eot');
+    src: local('Proxima Soft Thin Italic'), local('ProximaSoft-ThinIt'),
+        url('ProximaSoft-ThinIt.eot?#iefix') format('embedded-opentype'),
+        url('ProximaSoft-ThinIt.woff2') format('woff2'),
+        url('ProximaSoft-ThinIt.woff') format('woff'),
+        url('ProximaSoft-ThinIt.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Proxima Soft';
+    src: url('ProximaSoft-ExtraBold.eot');
+    src: local('Proxima Soft ExtraBold'), local('ProximaSoft-ExtraBold'),
+        url('ProximaSoft-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('ProximaSoft-ExtraBold.woff2') format('woff2'),
+        url('ProximaSoft-ExtraBold.woff') format('woff'),
+        url('ProximaSoft-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Greycliff CF';
+    src: local('Greycliff CF Demi Bold'), local('GreycliffCF-DemiBold'),
+        url('@/assets/fonts/GreycliffCF-DemiBold.woff2') format('woff2'),
+        url('@/assets/fonts/GreycliffCF-DemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Greycliff CF';
+    src: local('Greycliff CF Thin'), local('GreycliffCF-Thin'),
+        url('@/assets/fonts/GreycliffCF-Thin.woff2') format('woff2'),
+        url('@/assets/fonts/GreycliffCF-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Greycliff CF';
+    src: local('Greycliff CF Medium'), local('GreycliffCF-Medium'),
+        url('@/assets/fonts/GreycliffCF-Medium.woff2') format('woff2'),
+        url('@/assets/fonts/GreycliffCF-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Greycliff CF';
+    src: local('Greycliff CF Thin Oblique'), local('GreycliffCF-ThinOblique'),
+        url('@/assets/fonts/GreycliffCF-ThinOblique.woff2') format('woff2'),
+        url('@/assets/fonts/GreycliffCF-ThinOblique.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Greycliff CF';
+    src: local('Greycliff CF'), local('GreycliffCF-Regular'),
+        url('@/assets/fonts/GreycliffCF-Regular.woff2') format('woff2'),
+        url('@/assets/fonts/GreycliffCF-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Greycliff CF';
+    src: local('Greycliff CF Oblique'), local('GreycliffCF-RegularOblique'),
+        url('@/assets/fonts/GreycliffCF-RegularOblique.woff2') format('woff2'),
+        url('@/assets/fonts/GreycliffCF-RegularOblique.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+/*============================== ROBOTO ================================*/
+
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto Black Italic'), local('Roboto-BlackItalic'),
+        url('@/assets/fonts/Roboto-BlackItalic.woff2') format('woff2'),
+        url('@/assets/fonts/Roboto-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto Bold'), local('Roboto-Bold'),
+        url('@/assets/fonts/Roboto-Bold.woff2') format('woff2'),
+        url('@/assets/fonts/Roboto-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto Bold Italic'), local('Roboto-BoldItalic'),
+        url('@/assets/fonts/Roboto-BoldItalic.woff2') format('woff2'),
+        url('@/assets/fonts/Roboto-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto Light Italic'), local('Roboto-LightItalic'),
+        url('@/assets/fonts/Roboto-LightItalic.woff2') format('woff2'),
+        url('@/assets/fonts/Roboto-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto'), local('Roboto-Regular'),
+        url('@/assets/fonts/Roboto-Regular.woff2') format('woff2'),
+        url('@/assets/fonts/Roboto-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto Thin Italic'), local('Roboto-ThinItalic'),
+        url('@/assets/fonts/Roboto-ThinItalic.woff2') format('woff2'),
+        url('@/assets/fonts/Roboto-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto Black'), local('Roboto-Black'),
+        url('@/assets/fonts/Roboto-Black.woff2') format('woff2'),
+        url('@/assets/fonts/Roboto-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto Medium Italic'), local('Roboto-MediumItalic'),
+        url('@/assets/fonts/Roboto-MediumItalic.woff2') format('woff2'),
+        url('@/assets/fonts/Roboto-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto Thin'), local('Roboto-Thin'),
+        url('@/assets/fonts/Roboto-Thin.woff2') format('woff2'),
+        url('@/assets/fonts/Roboto-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto Light'), local('Roboto-Light'),
+        url('@/assets/fonts/Roboto-Light.woff2') format('woff2'),
+        url('@/assets/fonts/Roboto-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto Italic'), local('Roboto-Italic'),
+        url('@/assets/fonts/Roboto-Italic.woff2') format('woff2'),
+        url('@/assets/fonts/Roboto-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto Medium'), local('Roboto-Medium'),
+        url('@/assets/fonts/Roboto-Medium.woff2') format('woff2'),
+        url('@/assets/fonts/Roboto-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SF Pro Text';
+    src: url('./FontsFree-Net-SFProText-Regular-1.ttf');
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Fira Sans';
+    src: url('./FiraSans-Regular.ttf');
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url('./Montserrat-Regular.ttf');
+    font-display: swap;
+}
+@font-face {
+    font-family: 'TT Norms Pro';
+    src: url('./TTNorms-Regular.otf');
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Inter';
+    src: url('./Inter-Regular.ttf');
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Minion3';
+    src: url('./Minion3-Regular.ttf');
+    font-display: swap;
+}
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('./SFPRODISPLAYREGULAR.OTF');
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Gotham Pro';
+    src: url('./gothampro_medium.ttf');
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Gotham Pro Narrow';
+    src: url('./GothamNarrow-Medium.otf');
+    font-display: swap;
+}

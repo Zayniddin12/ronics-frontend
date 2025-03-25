@@ -1,0 +1,15 @@
+stages:  
+  - deploy
+
+deploy:
+  stage: deploy
+  script:      
+    - whoami  
+    - sudo rsync -rult --delete-after --exclude=.git/ --exclude=node_modules/ --exclude=.gitlab-ci.yml --exclude=.env $CI_PROJECT_DIR/ /home/ronics/web/front
+    - cd /home/ronics/web/front
+    - sudo curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash && export NVM_DIR="$HOME/.nvm" && [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" && nvm use 16.19.0   
+    - sudo yarn & sudo yarn build
+  tags:
+    - ronics-front
+  only:
+    - master

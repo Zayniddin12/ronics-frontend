@@ -1,0 +1,233 @@
+{
+    "main": {
+        "scroll_title": "Scroll",
+        "scroll_subtitle": "down"
+    },
+    "load_more": "Load more",
+    "instructions": "Instructions",
+    "header_tel1": "+998 71",
+    "header_tel2": "200 93 99",
+    "company_tel": "+998 71 200 93 99",
+    "phone_us1": "+1 331",
+    "phone_us2": "481-1908",
+    "address_us": "50 Chumasero Dr 2A San Francisco",
+    "error": {
+        "required": "It is important that you fill in this field",
+        "minLength": "Please enter a word of at least 3 characters",
+        "maxLength": "No more than 100 characters can be used",
+        "error": "Error!",
+        "error_page": "Main page",
+        "not_found": "This page was not found",
+        "contact_error": "An error occurred"
+    },
+    "search": "Search",
+    "links": {
+        "brandbook": "https://disk.yandex.ru/d/Z_cHhi3dnFRhvA"
+    },
+    "header": {
+        "choose_lang": "Languages:",
+        "about": "Company",
+        "service": "Services",
+        "products": "Products and Services",
+        "contact": "Connection"
+    },
+    "footer": {
+        "address": "Tashkent city, Mirabad district, Oybek street - 24"
+    },
+    "address_uz": "Tashkent city, Mirabad district, Oybek street - 24",
+    "index": {
+        "maintitle": "Reliable solutions for industrial automation process control systems",
+        "secondtitle": "In any complexity"
+    },
+    "buttons": {
+        "btn1": "Briefing",
+        "btn2": "A call",
+        "btn3": "All services",
+        "btn4": "Brandbook loading",
+        "btn5": "Solve the problem!",
+        "btn6": "Sending",
+        "btn7": "Sign up",
+        "btn8": "Submit resume",
+        "btn9": "Download"
+    },
+    "about": {
+        "subtitle": "In a word",
+        "title": "about Us",
+        "yuzyillik": "annual qualifying team",
+        "trust": "RONICS LLC offers the implementation of automated process control systems (APCS) of any complexity at your enterprise. Customers come to us from a wide variety of industries, energy, communications, mechanical engineering, transport and many others. Our company can carry out both a comprehensive implementation of an automated process control system at your facility, and offer the implementation of individual stages: design, development, procurement, supply of equipment, installation, commissioning, post-warranty and technical support.",
+        "trust_part": "We help clients solve automation issues of any level of complexity. Today, RONICS LLC has both ready-made solutions for standard projects and can develop a working project for highly specialized tasks of your production. At the same time, in each case, the implemented project is developed taking into account the tasks, specifics and needs of production.",
+        "feature1": "Quick solutions",
+        "feature2": "Unique projects"
+    },
+    "services": {
+        "heading": "Our services",
+        "category_heading": "Catalog of our products",
+        "subtitle": "Ours",
+        "title": "Our services",
+        "text": "We are ready for projects of any complexity and any direction",
+        "all": "Everything",
+        "top_rated": "TOP products"
+    },
+    "problem": {
+        "hey": "hey...",
+        "title": "Got a problem that's been bothering you?",
+        "subtitle": "Hey...",
+        "maintext": "problem",
+        "formtext": "Fill out the survey below so we can investigate your issue:"
+    },
+    "partners": {
+        "title": "Companies that trust us",
+        "subtitle": "partners"
+    },
+    "form": {
+        "type_of_project": "Type of service",
+        "name": "F.I.SH",
+        "nameplaceholder": "Enter your full name",
+        "project_desc": "Description",
+        "briefprojectplaceholder": "Write a brief description of the project",
+        "phone": "Your phone number",
+        "cv": "Upload your CV",
+        "title": "Brief for dashboard order",
+        "subtitle": "YOUR DIGITAL PARTNER",
+        "next": "The next one",
+        "prev": "Back",
+        "add": "Add",
+        "add1": "Download Brandbook",
+        "company": "Name of the company",
+        "punkt1": "personal information",
+        "punkt2": "Goals and objectives",
+        "punkt3": "Project structure",
+        "punkt4": "Your condition",
+        "datetime": "1 month",
+        "companyplaceholder": "Enter the company name",
+        "youranswer": "Your Answer",
+        "other": "Other",
+        "upload": "File upload",
+        "min": "Min",
+        "max": "Max",
+        "to": "to {0}"
+    },
+    "brief_title": "Successfully submitted brief to develop {action}! Our operators will contact you soon.",
+    "brief_subtitle": "brief for the development of",
+    "aboutform": {
+        "title": "Do you also want to start your own production?",
+        "subtitle": "Want to rise with us? Come prove to us that you need us! Become an integral part of the team."
+    },
+    "comment": {
+        "title": "Customer opinion",
+        "text": "RONICS sees its customers as lifelong partners. We know how to listen and analyze. We offer the most optimal solutions for each of our partners after thoroughly studying their requirements. We don't sell products, we provide quality solutions! It is our goal to perform any task of any complexity that may arise in all IT services. In this, the experience and knowledge of the whole team is directed to the expected result. The product of your thoughts and work is our pride. We are ready to be your only choice in providing perfect IT solutions for your company."
+    },
+    "gallery": {
+        "title": "Photo gallery",
+        "subtitle": "From the RONICS family"
+    },
+    "more": "Reload",
+    "in_map": "On the map",
+    "result_notfound": "No search results found",
+    "work": {
+        "title": "What solution do you want?",
+        "subtitle": "is there a problem"
+    },
+    "fish": "F.I.SH",
+    "enter_name": "Enter your name",
+    "answer": "Your Answer",
+    "ios_android": "iOS and Android",
+    "my_answer": "My answer",
+    "select": "Choose",
+    "popup": {
+        "main": "Return to main page",
+        "send": "Sent successfully",
+        "your_application_sent": "Your application has been sent successfully",
+        "send_call": "Brief sent successfully! Our operators will contact you soon. )"
+    },
+    "about_page": {
+        "about": "ABOUT RONICS",
+        "our_portfolio": "Our portfolio"
+    },
+    "general_form_description": "After you fill in this basic information, our responsible staff will contact you.",
+    "fio": "F.I.SH.",
+    "select_vacancy": "Select a vacancy",
+    "success_send": "Sent successfully",
+    "advise_view": "To see",
+    "advise": "We recommend",
+    "popup.your_application_sent": "We will contact you after reviewing your application!",
+    "send_form": "Submit an application",
+    "monday": "Monday",
+    "tuesday": "Tuesday",
+    "wednesday": "Wednesday",
+    "thursday": "Thursday",
+    "friday": "Friday",
+    "saturday": "Saturday",
+    "sunday": "Sunday",
+    "footer_map": "26, Oybek, Mirabad t., Tashkent city",
+    "view_more": "More",
+    "your_name": "Your name",
+    "introduce_yourself": "Introduce yourself",
+    "enter_your_name": "Enter your name",
+    "back_to_main": "Back to main",
+    "go": "Transition",
+    "selfxss_text1": "{action} damage can be described as obtaining user web account information, making changes to the software console for fraud, cyber attacks, bullying purposes, or copying information to a fraudster or hacker. In a Self-XSS attack, the victim may unknowingly run a malicious virus in their web browser, causing damage to other personal files.",
+    "selfxss_text10": "www.ronics.uz",
+    "selfxss_text11": "'RONICS' MJCH",
+    "selfxss_text12": "All rights reserved.",
+    "about_us": "about Us",
+    "products": "Products",
+    "contacts": "Contacts",
+    "language": "Language:",
+    "go_to": "Go to the site",
+    "next_project": "Scroll down",
+    "WEBSITE": "Website",
+    "ecommerce": "E-commerce",
+    "fintech": "Fintech",
+    "vertical_slider": {
+        "text1": "RONICS - a new approach and modern quality assurance.",
+        "text2": "Open areas of activity, current projects, an advanced team, super active employees, quality products, a reliable partner, the most comfortable working conditions, high salary, a company with its representatives across the country - this is the opinion of PM employees and company partners.",
+        "text3": "RONICS is not a classic IT company. That is, we do not stick to one field. We provide technical support for robotics, digital marketing, game development, and various software systems.",
+        "text4": "The United IT Company team puts quality above financial interests. More precisely, we work with people, not computers. The comments of our clients also confirm RONICS's responsible approach to entrusted tasks and obligations, maintaining a harmonious team work process. After all, we are not chasing trends, but creating them, we are striving to become a leading team in the IT sector by conducting activities based on international standards. The projects we have created so far are the proof of our words and the proof that we are an undeniable choice for you.",
+        "text5": "Every big company needs to thank not only itself, but also those who have stood beside it and believed in it. After all, the most important principle in our work is trust.",
+        "text6": "The comments of our clients also confirm RONICS's responsible approach to entrusted tasks and obligations, maintaining a harmonious team work process. After all, we are not chasing trends, but creating them, we are striving to become a leading team in the IT sector by conducting activities based on international standards. The projects we have created so far are the proof of our words and the proof that we are an undeniable choice for you."
+    },
+    "contact": {
+        "title": "contact us",
+        "form": {
+            "name": "Enter your name",
+            "label3": "Appeal",
+            "description": "Write the text of the appeal"
+        },
+        "btn": "Send a request"
+    },
+    "products_list": {
+        "title": "Catalog of our products",
+        "card_link": "More",
+        "details": {
+            "title": "Features of the structure",
+            "list1": "Name",
+            "list2": "Manufacturer code",
+            "list3": "Usage",
+            "list4": "Warranty period",
+            "list5": "Description and features",
+            "list6": "Communication interfaces",
+            "list7": "Function",
+            "list8": "Protection group",
+            "list9": "Price",
+            "no_price": "By agreement",
+            "currency": "sum"
+        },
+        "related_title": "Similar products"
+    },
+    "modal": {
+        "title": "Do you have any questions?",
+        "desc": "Leave your phone number and we will give you the best offers on the market",
+        "feedback_title": "Sent successfully",
+        "feedback__subtitle": "Your application has been successfully submitted"
+    },
+    "footer_list": {
+        "title1": "Automotive industry",
+        "title2": "Chemical technologies",
+        "title3": "Development of household technologies",
+        "title4": "Development of macro plants",
+        "title5": "Development of industrial architecture",
+        "title6": "Heavy industry"
+    },
+    "no_information": "Product not available.!"
+}
